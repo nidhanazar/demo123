@@ -1,0 +1,65 @@
+/*form{*/
+    /*background-color:aqua;*/
+    /*padding:10px;*/
+    /*border: 2px solid;*/
+/*}*/
+
+body {
+    font-family: "Multi-Regular";
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+    background-color: darkgrey;
+}
+
+input, textarea, select, button {
+  font-family: "Multi-Regular";
+  color: #333;
+  font-size: 20px; }
+
+form {
+    text-align: center;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 9px;
+    display: block;
+    border: none;
+    margin: auto;
+    margin-top: 29px;
+    cursor: pointer;
+
+
+
+}
+
+
+.checkbox {
+  position: relative; }
+
+button {
+  border: none;
+  width: 152px;
+  height: 40px;
+  margin: auto;
+  margin-top: 29px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  background: #3575D3 ;
+  font-size: 13px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Muli-SemiBold";
+  border-radius: 20px;
+  overflow: hidden;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s; }
